@@ -80,21 +80,6 @@ async function init(){
                 return h.response({error: "Internal Server Error"}).code(500);
             }
         }
-    }, 
-    {
-        method: "PUT",
-        path: "/employee/{employeeId}/update-salaryInfo",
-        handler: async(req, h)=>{}
-    },
-    {
-        method: "PUT",
-        path: "/employee/{employeeId}/update-titleInfo",
-        handler: async(req, h)=>{}
-    },
-    {
-        method: "PUT",
-        path: "/employee/{employeeId}/update-deptInfo",
-        handler: async(req, h)=>{}
     },
     {
         method: "GET",
